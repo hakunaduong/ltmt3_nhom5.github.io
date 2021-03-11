@@ -1,0 +1,31 @@
+.menu_v1 {
+    background-color: white;
+    margin-bottom: 10px;
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_left {
+        ul {
+            display: flex;
+            li {
+                a {
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding: 10px 20px;
+                    text-transform: none;
+                    display: inline-block;
+                }
+                a.active {
+                    color: #00b33c;
+                }
+                &:first-child{
+                    a {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

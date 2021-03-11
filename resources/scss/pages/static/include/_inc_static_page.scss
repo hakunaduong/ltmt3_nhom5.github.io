@@ -1,0 +1,21 @@
+.shop_system {
+    background-color: white;
+    margin-bottom: 30px;
+    .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #f2f2f2;
+        a {
+            line-height: 30px;
+            i {
+                color: #00b33c;
+                margin-right: 5px;
+            }
+            span {
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
